@@ -1,0 +1,73 @@
+.candidate {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.button {
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+.shortlistB {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.rejectB {
+  background-color: #ee3636;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.image {
+  height: 75%;
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.ccard {
+  height: 475px;
+  width: 20vw;
+  border: 50px sloid rgb(167, 160, 160);
+  transition: 0.3s;
+}
+
+.ccardSelected {
+  height: 600px;
+  width: 25vw;
+  padding: 5px;
+  border: 5px solid rgb(45, 255, 97);
+  transition: 0.3s;
+}
+
+.ccardRejected {
+  height: 600px;
+  width: 25vw;
+  padding: 5px;
+  border: 5px solid rgb(255, 45, 45, 0.7);
+  transition: 0.3s;
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
